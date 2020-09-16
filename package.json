@@ -1,7 +1,7 @@
 {
   "name": "eatdaburger",
   "version": "1.0.0",
-  "description": "",
+  "description": "# Table of Contents",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
