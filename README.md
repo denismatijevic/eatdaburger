@@ -13,7 +13,8 @@
 
 
 # Issues
-
+* Issues with local host
+* Issues deploying to heroku
 
 
 # Future-Plans
