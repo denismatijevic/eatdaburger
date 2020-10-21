@@ -5,3 +5,5 @@ $(document).ready(function() {
 
   })
 });
+
+module.exports = burger;
