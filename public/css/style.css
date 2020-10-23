@@ -2,10 +2,15 @@ h1 {
   text-align: center;
 }
 
-.button {
+.style {
   text-align: center;
 }
 
-#imgage {
-  align-content: center;
+body {
+  background-color: lightskyblue;
+}
+
+p {
+  color: green;
+  padding-top: 5px;
 }
