@@ -21,7 +21,7 @@ router.post("/burgers/insert", function(req, res){
 
 router.put("/burgers/:id", function(req, res){
   burger.update(req.params.id, function(result) {
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 
