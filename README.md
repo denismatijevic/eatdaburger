@@ -8,24 +8,23 @@
 * [Link](#Link)
 * [Screenshot](#Screenshot)
 
-# Process
+## Description
+* This is a web application to track the types of burgers a user has eaten. It was built on the client side using express handlebars and it is linked to a MySQL database. 
 
-
-
-# Issues
+## Issues
 * Issues with local host
 * Issues deploying to heroku
 
 
-# Future-Plans
+## Future-Plans
 
 
 
-# Link 
+## Link 
 
 [Eat Da Burger](https://mvceatdaburger.herokuapp.com/burgers)
 
-# Screenshot
+## Screenshot
 
 ![]()
 
