@@ -26,6 +26,6 @@
 
 ## Screenshot
 
-![]()
+![Home Page Screenshot](public/images/homepagescreenshot.png)
 
 ![]()
