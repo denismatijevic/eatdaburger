@@ -1,14 +1,33 @@
 {{!-- page title --}}
 <h1>Eat Da Burger</h1>
-	<div class="style">
-			<div id="image">
-			<img src="/images/burger.png" alt="burger" class="image"/>
-			</div>
-		
-		<div class="button">
-			<p>What kind of burger would you like to devour?</p>
-			<input type="text" row>
-			<br><br>
-			<button type="button" class="btn btn-primary">Devour Da Burger</button>
+{{!-- what kind of burger would you like made --}}
+<form class="order-area">
+	<div id="image">
+		<img src="/images/burger.png" alt="burger" class="image" />
+				<p>What kind of burger would you like to devour?</p>
+					<input type="text" row>
+					<br><br>
+				<button type="button" class="btn btn-primary">Get To Cookin'</button>
+	</from>
+
+
+
+	<div class="button">
+		<form class="devour-form button-size"></form>
+		{{!-- <p>What kind of burger would you like to devour?</p> --}}
+		<input input type="hidden" class="burger_id" type="text" value={{this.id}}><br>
+		<button type="button" class="btn btn-primary">Devour Da Burger</button>
+		</form>
+	</div>
+
+	<div id="eaten">
+		{{#each burger_data }}
+		{{#if this.devoured}}
+		 <div class="list-item">
+			<span class="burger-id">{{this.id}}</span>
+			<span class="burger-name-text">{{this.burger_name}}</span>
+			<br>
 		</div>
+		{{/if}}
+		{{/each}}
 	</div>
