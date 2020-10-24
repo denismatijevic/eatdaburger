@@ -16,16 +16,16 @@
 			{{#each burger_data}}
 			{{#unless this.devoured}}
 			<div id="list">
-			<span class="burger-id">{{this.id}}</span>
-			<span class="burger-id">{{this.burger.name}}</span>
-			<form class="devour-form button-size"></form>
+				<span class="burger-id">{{this.id}}</span>
+				<span class="burger-id">{{this.burger.name}}</span>
+				<form class="devour-form button-size"></form>
 				{{!-- <p>What kind of burger would you like to devour?</p> --}}
 				<br>
-				<button type="button" class="btn btn-primary">Devour Da Burger</button>
-			</form>
-			</div>
-			{{/unless}}
-			{{/each}}
+				<button type="button" class="btn btn-primary">Devour Da Burger!</button>
+</form>
+</div>
+{{/unless}}
+{{/each}}
 </div>
 
 <div id="devoured">
