@@ -1,13 +1,13 @@
 {{!-- page title --}}
 <h1>Eat Da Burger</h1>
 {{!-- what kind of burger would you like made --}}
-<form class="order-area">
+<form class="order-area" action="/burgers/insert" method="post">
 	<div id="image">
 		<img src="/images/burger.png" alt="burger" class="image" />
 		<p>What kind of burger would you like to devour?</p>
-		<input type="text" row>
+		<input type="text" name="burger_name" row>
 		<br><br>
-		<button type="button" class="btn btn-primary">Get To Cookin'</button>
+		<input type="submit" value="Get To Cookin" class="btn btn-primary"></input>
 		</from>
 
 
