@@ -14,6 +14,7 @@
 ## Issues
 * Issues with local host
 * Issues deploying to heroku
+* Bit of trouble connecting my database but it got figured out! 
 
 
 ## Future-Plans
